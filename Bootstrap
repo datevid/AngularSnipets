@@ -1,0 +1,31 @@
+Install Bootstrap in Angular
+
+Uninstalling the Angular CLI
+npm uninstall -g @angular/cli
+
+Clear the cache
+npm cache clean --force
+
+install angular
+npm install -g @angular/cli@latest
+npm i -g @angular/cli@13.0.0
+
+Create workspace:
+ng new [PROJECT NAME]
+
+enter to proyect(very important!!!!!)
+cd [PROJECT NAME]
+
+install bootstrap
+$ npm install bootstrap --save
+
+import bootstrap in styles.scss:
+@import '~bootstrap/scss/bootstrap';
+or
+@import "~bootstrap/dist/css/bootstrap.css";
+
+in app.component.html add:
+<button type="button" class="btn btn-primary">Button</button>
+
+Run the application:
+ng serve
