@@ -1,4 +1,4 @@
-Install Bootstrap in Angular
+Install Bootstrap in Angular with scss
 
 Uninstalling the Angular CLI
 npm uninstall -g @angular/cli
