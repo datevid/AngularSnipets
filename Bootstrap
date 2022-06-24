@@ -29,3 +29,8 @@ in app.component.html add:
 
 Run the application:
 ng serve
+
+desinstalar e instalar toastr
+npm uninstall ngx-toastr@
+npm install ngx-toastr@13.0.0 --save
+npm install @angular/ animations --save
