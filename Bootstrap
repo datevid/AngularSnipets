@@ -23,6 +23,15 @@ import bootstrap in styles.scss:
 @import '~bootstrap/scss/bootstrap';
 or
 @import "~bootstrap/dist/css/bootstrap.css";
+or add  in angular.json:
+"styles": [
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+            ],
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
+
 
 in app.component.html add:
 <button type="button" class="btn btn-primary">Button</button>
