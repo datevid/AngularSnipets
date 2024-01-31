@@ -15,7 +15,7 @@ ng generate service MiServicio
 ```
 
 validation form
-```
+```javascript
 <div class="flex flex-column gap-2">
       <label for="nombre">Nombre</label>
       <input pInputText formControlName="nombre" aria-describedby="nombre-help" 
