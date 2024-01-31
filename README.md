@@ -31,3 +31,4 @@ ver más validaciones en
 
 - https://angular.io/guide/form-validation
 - https://angular.io/api/forms/Validators
+- https://www.concretepage.com/angular-2/angular-2-4-minlength-and-maxlength-validation-example
