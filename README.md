@@ -27,4 +27,7 @@ validation form
       <small></small>
   </div>
 ```
-ver más validaciones en https://angular.io/guide/form-validation
+ver más validaciones en 
+
+- https://angular.io/guide/form-validation
+- https://angular.io/api/forms/Validators
