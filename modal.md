@@ -1,5 +1,7 @@
 ### Controlar el cierre de un modal.
 
+[https://stackoverflow.com/questions/43848250/how-to-call-angular-function-when-click-p-dialog-closex-button](https://stackoverflow.com/a/43849126)
+
 Ejemplo 1
 ```html
 <p-dialog header="Header" [(visible)]="isVisibleModal" [style]="{width: '50vw'}" (onHide)="onCloseModal()">
