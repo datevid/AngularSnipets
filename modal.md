@@ -1,6 +1,6 @@
 ### Controlar el cierre de un modal.
 
-[https://stackoverflow.com/questions/43848250/how-to-call-angular-function-when-click-p-dialog-closex-button](https://stackoverflow.com/a/43849126)
+[cierre de ventana modal anexado a un método](https://stackoverflow.com/a/43849126)
 
 Ejemplo 1
 ```html
