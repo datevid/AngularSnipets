@@ -34,7 +34,7 @@ ver más validaciones en
 - https://www.concretepage.com/angular-2/angular-2-4-minlength-and-maxlength-validation-example
 
 ### disable inputs in form using FormBuilder
-```
+```typescript
 dni: new FormControl({value:"42539157",disabled:true}, [Validators.required]),
 ```
 
