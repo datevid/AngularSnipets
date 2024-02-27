@@ -35,6 +35,10 @@ ver más validaciones en
 
 ### disable inputs in form using FormBuilder
 ```typescript
-dni: new FormControl({value:"42539157",disabled:true}, [Validators.required]),
+this.formFiltro = this.formBuilder.group({
+      input1: new FormControl(null, [Validators.required]),
+      input2: new FormControl(null, [Validators.required]),
+      dni: new FormControl({value:"42539157",disabled:true}, [Validators.required]),
+    })
 ```
 
