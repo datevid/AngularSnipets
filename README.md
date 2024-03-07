@@ -43,7 +43,7 @@ this.formFiltro = this.formBuilder.group({
 ```
 
 if else usando ng-container y ng-template
-```typescript
+```html
 <ng-container *ngIf="item.var1==1; then estado1; else estado2"></ng-container>
 <ng-template #estado1>
   <small><p-tag severity="success" value="{{item.var2}}"></p-tag></small>
