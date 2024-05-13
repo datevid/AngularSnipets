@@ -41,6 +41,28 @@ this.formFiltro = this.formBuilder.group({
       dni: new FormControl({value:"42539157",disabled:true}, [Validators.required]),
     })
 ```
+Disable dropdown:
+
+Not working in dropdown
+```ts
+this.formFiltroBuscar = this.formBuilder.group({
+      idStudent: new FormControl({value:null,disabled:true}), //not working
+});
+```
+
+Working in dropdown perfectly
+```ts
+this.formFiltroBuscar = this.formBuilder.group({
+      idStudent: new FormControl(null,),
+});
+
+//forma 1
+this.formFiltroBuscar.controls['idStudent'].disable();
+
+//forma 2
+this.formFiltroBuscar.get('idStudent').disable();
+```
+
 
 if else usando ng-container y ng-template
 ```html
